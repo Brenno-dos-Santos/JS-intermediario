@@ -35,6 +35,7 @@ function highlightDates() {
     } else if (cellDay > dia1 && cellDay < dia2) { // Verifica se o dia da célula está entre os dias selecionados.
       cell.style.backgroundColor = '#019587';
     }
+    
   });
 }
 
